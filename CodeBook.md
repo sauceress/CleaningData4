@@ -25,8 +25,8 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
   <li>features is the combination of feature test and training data</li>
 
 
-## Input Data and variable assignment
 ## The input data contains the following data files to be assigned to descriptive variable name:
+
 <ul></ul>
   <li>featureNames is the features properties</li>
   <li>CompleteData is the combination of features, activity and subject</li>
@@ -40,8 +40,7 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
   <li>Update descriptive names for activity for Activity column in descData</li>
   <li>Acronyms in descData like 'Mag', 'f' and 't' being replaced with descriptive labels 'Magnitude', 'Frequency' and 'Time'</li>
 
-  ## Output tidy data file
-Tidy.csv is a a space-delimited value file with header which contains the variable names that are easy to understand. The data in the files are values of mean and standard deviation.
+## Tidy.csv is a a space-delimited value file with header which contains the variable names that are easy to understand. The data in the files are values of mean and standard deviation.
 <ul></ul>
   <li>tidyData is created based on activity and subjects from descData</li>
   <li>output data from tidyData was writte to a file named Tidy.txt</li>
