@@ -11,7 +11,7 @@ The data for the project:
 
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 ## Merges the training and the test sets to create one data set.
-<ul>
+<ul></ul>
   <li>featuresTrain stored data from X_train.txt</li>
   <li>activityTrain stored data from Y_train.txt</li>
   <li>subjectTrain stored data Data from subject_train.txt</li>
@@ -27,7 +27,7 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 
 ## Input Data and variable assignment
 ## The input data contains the following data files to be assigned to descriptive variable name:
-<ul>
+<ul></ul>
   <li>featureNames is the features properties</li>
   <li>CompleteData is the combination of features, activity and subject</li>
 
