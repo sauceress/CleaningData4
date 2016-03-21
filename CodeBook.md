@@ -43,6 +43,6 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 ## Tidy.csv is a a space-delimited value file with header which contains the variable names that are easy to understand. The data in the files are values of mean and standard deviation.
 <ul></ul>
   <li>tidyData is created based on activity and subjects from descData</li>
-  <li>output data from tidyData was writte to a file named Tidy.txt</li>
+  <li>output data from tidyData was writte to a file named Tidy.csv</li>
 
 
