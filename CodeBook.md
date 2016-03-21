@@ -33,7 +33,7 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 
 
 ## Extracts only the measurements on the mean and standard deviation for each measurement.
-<ul>
+<ul></ul>
 
   <li>Index columns that contains std or mean and ignore case sensitive and assigned to requiredColumns</li>
   <li>create descData from columns from requiredColumns</li>
@@ -42,8 +42,8 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 
   ## Output tidy data file
 Tidy.csv is a a space-delimited value file with header which contains the variable names that are easy to understand. The data in the files are values of mean and standard deviation.
-<ul>
+<ul></ul>
   <li>tidyData is created based on activity and subjects from descData</li>
   <li>output data from tidyData was writte to a file named Tidy.txt</li>
-</ul>
+
 
