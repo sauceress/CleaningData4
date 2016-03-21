@@ -80,6 +80,8 @@ descData <- data.table(descData)
 tidyData <- aggregate(. ~Subject + Activity, descData, mean)
 tidyData <- tidyData[order(tidyData$Subject,tidyData$Activity),]
 write.csv(tidyData, file = "Tidy.csv", row.names = FALSE)
+write.table(tidyData, file = "Tidy.txt", row.names = FALSE)
+
 
 library(knitr)
 knit2html("codebook.md")
